@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <title>Sedikit Ke Utara</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Inconsolata"
+  />
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+body{
+background-color: #decbaf;
+}
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("/Seketara/images/DSCF9652.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+   
+    /* card */
+
+    /* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+  </style>
+  <body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-row w3-padding" style="background-color: #763300;">
+        <div class="w3-col s3">
+          <a href="#" class="w3-button w3-block" style="background-color: #763300; color: white;">HOME</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#about" class="w3-button w3-block" style="background-color: #763300; color: white;">ABOUT</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#menu" class="w3-button w3-block" style="background-color: #763300; color: white;">MENU</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#where" class="w3-button w3-block" style="background-color: #763300; color: white;">WHERE</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container" id="home">
+      <div
+        class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small"
+      >
+        <span class="w3-tag" style="font-size: 22px"
+          >営業時間 11.00～19.00</span
+        >
+      </div>
+      <div class="w3-display-bottomright w3-center w3-padding-large">
+        <span class="w3-text-white" style="font-size: 22px"
+          >Jalan Sukajadi no. 202</span
+        >
+      </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-large">
+      <!-- About Container -->
+      <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width: 700px">
+          <h5 class="w3-center w3-padding-64">
+            <span class="w3-tag w3-wide">ABOUT THE CAFE</span>
+          </h5>
+          <p>
+            Sedikit Ke Utara (SeKeTara) merupakan kedai kopi yang terletak di
+            Bandung, tepatnya Jalan Sukajadi 202. Nama ini menyesuaikan posisi
+            dari kedai yang terletak sedikit ke utara dari pusat kota Bandung.
+            Selain berasal dari posisinya, nama ini juga diambil dari tujuan
+            yang ingin dicapai oleh SeKeTara. SeKeTara menyajikan minuman kopi,
+            non-kopi dan beberapa cemilan. Kopi yang digunakan berasal dari
+            berbagai daerah di Indonesia dan semua kopi yang digunakan merupakan
+            kopi arabika. Kedai kami ingin menyajikan kopi dengan kualitas dan
+            rasa yang baik bagi pengunjungnya dengan harga terjangkau. Selain
+            itu juga kami ingin minuman dan makanan yang kami sajikan dapat
+            dinikmati oleh berbagai kalangan dan berbagai umur.
+          </p>
+          <img
+            src="/Seketara/images/DSCF1930.jpg"
+            style="width: 100%; max-width: 1000px"
+            class="w3-margin-top"
+          />
+          <p>
+            <strong>営業時間：</strong>
+            毎日　午前11時から午後7時まで
+          </p>
+          <p>
+            <strong>住所：</strong>Jalan Sukajadi no.202、
+            バンドン、西ジャワ、インドネシア
+          </p>
+        </div>
+      </div>
+
+      <!-- Menu Container -->
+      <div class="w3-container" id="menu">
+        <div class="w3-content" style="max-width: 700px">
+          <h5 class="w3-center w3-padding-48">
+            <span class="w3-tag w3-wide">THE MENU</span>
+          </h5>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="/Seketara/images/604.jpg" alt="" style="width:100%;">
+                <p>Japanese</p>
+                <p>IDR 26.000,-</p>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="/Seketara/images/DSCF9699.jpg" alt="" style="width:100%;">
+                <p>Coco Latte</p>
+                <p>IDR 28.000,-</p>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <img src="/Seketara/images/DSCF9642.jpg" alt="" style="width:100%;">
+                <p>Refresh Lemonade</p>
+                <p>IDR 23.000,-</p>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <img src="/Seketara/images/502.jpg" alt="" style="width:100%;">
+                <p>Mominti</p>
+                <p>IDR 23.000-</p>
+              </div>
+            </div>
+          </div>
+          
+          
+
+          
+      
+        </div> 
+      </div>  
+
+      <!-- Contact/Area Container -->
+      <div class="w3-container" id="where" style="padding-bottom: 32px">
+        <div class="w3-content" style="max-width: 700px">
+          <h5 class="w3-center w3-padding-48">
+            <span class="w3-tag w3-wide">WHERE TO FIND US</span>
+          </h5>
+          <p>Find us at some address at some place.</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.270103854164!2d107.59655!3d-6.8825145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc0e4629eb3f09ef!2sSeKeTara!5e0!3m2!1sen!2sid!4v1608203053478!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-padding-48 w3-large" style="background-color: #d7b787;">
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(
+            " w3-dark-grey",
+            ""
+          );
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+      }
+      document.getElementById("myLink").click();
+    </script>
+  </body>
+</html>
